@@ -6,6 +6,19 @@ Users can create accounts, deposit and withdraw money, check balances, view tran
 
 ---
 
+# BANK OF BM – AI-Powered ATM Simulator
+
+## 📌 Index
+
+- [Features](#features)
+- [Software Used](#software-used)
+- [Folder Structure](#folder-structure)
+- [Code Breakdown](#code-breakdown)
+- [Photos](#photos)
+- [License](#license)
+
+---
+
 ## ✨ Features  
 
 - **Account Management** – Create new accounts with unique account numbers and PIN  
@@ -49,10 +62,12 @@ atm_sim_ai/
 
 ---
 
-## 🖼️ Photos / UI Preview
+## 🖼️ Photos 
 
-![ATM GUI Screenshot](link-to-your-screenshot.png)  
-*Example of the Streamlit interface with AI assistant*
+Below is the glimpse of the user interface.
+
+![Transaction History]([path-or-URL-to-image](https://github.com/BlaynaFerns/Bank_Simulation/blob/main/Transaction%20History.png))
+![AI Assistant]([path-or-URL-to-image](https://github.com/BlaynaFerns/Bank_Simulation/blob/main/AI%20Assistant.png))
 
 ---
 
