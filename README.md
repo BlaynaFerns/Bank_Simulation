@@ -6,20 +6,20 @@ Users can create accounts, deposit and withdraw money, check balances, view tran
 
 ---
 
-# BANK OF BM – AI-Powered ATM Simulator
 
-## 📌 Index
+##  Index
 
 - [Features](#features)
 - [Software Used](#software-used)
 - [Folder Structure](#folder-structure)
 - [Code Breakdown](#code-breakdown)
+- [How to Run the Project](#how-to-run-the-project)
 - [Photos](#photos)
 - [License](#license)
 
 ---
 
-## ✨ Features  
+## Features  
 
 - **Account Management** – Create new accounts with unique account numbers and PIN  
 - **Deposit & Withdraw** – Safely deposit or withdraw money  
@@ -31,7 +31,7 @@ Users can create accounts, deposit and withdraw money, check balances, view tran
 
 ---
 
-## 🛠️ Software Used
+## Software Used
 
 - **Python 3.10+**  
 - **Streamlit** – Web interface  
@@ -39,7 +39,7 @@ Users can create accounts, deposit and withdraw money, check balances, view tran
 - **Requests** – Load Lottie animations for UI  
 - **Lottie Files** – For animated UI elements  
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 atm_sim_ai/
@@ -53,7 +53,7 @@ atm_sim_ai/
 ```
 ---
 
-## 💻 Code Breakdown
+## Code Breakdown
 
 - **gui.py** – Main Streamlit interface, menu navigation, user login/logout, transaction handling  
 - **atm.py** – Contains `ATM` class for deposit, withdraw, balance check, mini-statement, and AI assistant logic  
@@ -62,15 +62,28 @@ atm_sim_ai/
 
 ---
 
-## 🖼️ Photos 
+## How to Run the Project
 
-Below is the glimpse of the user interface.
-
-![Transaction History]([path-or-URL-to-image](https://github.com/BlaynaFerns/Bank_Simulation/blob/main/Transaction%20History.png))
-![AI Assistant]([path-or-URL-to-image](https://github.com/BlaynaFerns/Bank_Simulation/blob/main/AI%20Assistant.png))
+1. Install Python 3.10 or above.  
+2. Download or clone the project.  
+3. Open terminal and navigate to the `src` folder.  
+4. (Optional) Create and activate a virtual environment.  
+5. Install dependencies: `pip install -r ../requirements.txt`  
+6. Run the app: `streamlit run gui.py`  
+7. Use the web interface to create accounts, deposit, withdraw, and check balance.  
+8. Close the browser or press `Ctrl + C` in terminal to exit.
 
 ---
 
-## 📄 License
+## Photos 
+
+Below is a glimpse of the user interface.
+
+- [Transaction History](https://github.com/BlaynaFerns/Bank_Simulation/blob/main/Transaction%20History.png)
+- [AI Assistant](https://github.com/BlaynaFerns/Bank_Simulation/blob/main/AI%20Assistant.png)
+
+---
+
+## License
 
 This project is intended for academic and demonstration purposes. It was originally created by YouTube. Feel free to use, modify, and expand upon it.
