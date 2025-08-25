@@ -1,0 +1,39 @@
+{
+  "1001": {
+    "pin": "8989",
+    "balance": 0.0,
+    "transactions": [],
+    "assistant_history": [
+      {
+        "role": "user",
+        "content": "how to check y balance",
+        "time": "2025-08-25 20:45:58"
+      },
+      {
+        "role": "assistant",
+        "content": "Your current balance is ₹0.0.",
+        "time": "2025-08-25 20:45:58"
+      },
+      {
+        "role": "user",
+        "content": "what is the withdrawal limit?",
+        "time": "2025-08-25 20:46:16"
+      },
+      {
+        "role": "assistant",
+        "content": "To withdraw: Main Menu → Withdraw, enter an amount not exceeding your balance, and confirm.",
+        "time": "2025-08-25 20:46:16"
+      },
+      {
+        "role": "user",
+        "content": "what is the deposit limit",
+        "time": "2025-08-25 20:46:42"
+      },
+      {
+        "role": "assistant",
+        "content": "To deposit: go to Main Menu → Deposit, enter an amount, and confirm.",
+        "time": "2025-08-25 20:46:42"
+      }
+    ]
+  }
+}
